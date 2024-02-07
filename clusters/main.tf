@@ -9,6 +9,7 @@ resource "google_container_cluster" "primary" {
 resource "google_container_node_pool" "primary_nodes" {
   name = "my-node-pool"
   location = var.zone
+  project = var.project_id
   cluster = google_container_cluster.primary.name 
   node_count = 1
 
