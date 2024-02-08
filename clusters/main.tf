@@ -1,6 +1,6 @@
 # Primary clusters
 resource "google_container_cluster" "primary" {
-  name = "my-gke-cluster"
+  name = var.cluster_name
   location = var.zone
   remove_default_node_pool = true
   initial_node_count = 1
