@@ -6,10 +6,8 @@ variable "zone" {
 variable "project_id" {
   description = "Project ID"
   type = string
-  default = "myterraformpractice" 
 }
 variable "cluster_name" {
-  description = "Project ID"
+  description = "Cluster name"
   type = string 
-  default = "my-gke-cluster"
 }
