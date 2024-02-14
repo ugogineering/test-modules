@@ -5,7 +5,8 @@ variable "zone" {
 }
 variable "project_id" {
   description = "Project ID"
-  type = string 
+  type = string
+  default = "myterraformpractice" 
 }
 variable "cluster_name" {
   description = "Project ID"
