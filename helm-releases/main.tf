@@ -2,7 +2,7 @@ resource "helm_release" "nginx_ingress" {
   name       = "nginx-ingress"
   repository = "https://charts.helm.sh/stable"
   chart      = "nginx-ingress"
-  version    = "1.43.0"
+  version    = "1.1.2"
 
   namespace  = "kube-system"
 
