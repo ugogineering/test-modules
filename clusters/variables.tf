@@ -1,6 +1,7 @@
 variable "zone" {
   description = "Default Zone"
   type = string
+  default = ""
 }
 variable "project_id" {
   description = "Project ID"
@@ -9,5 +10,6 @@ variable "project_id" {
 }
 variable "cluster_name" {
   description = "Cluster name"
-  type = string 
+  type = string
+  default = "" 
 }
