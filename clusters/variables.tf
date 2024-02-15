@@ -8,6 +8,6 @@ variable "project_id" {
   default = ""
 }
 variable "cluster_name" {
-  description = "Project ID"
+  description = "Cluster name"
   type = string 
 }
